@@ -1,0 +1,20 @@
+# Python cache and environment
+__pycache__/
+*.pyc
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (ignore all except those tracked by LFS)
+data/data_processed/
+data/data_raw/*
+!data/data_raw/OECD_IDD.csv
+!data/data_raw/WB_INFECDB.csv
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
